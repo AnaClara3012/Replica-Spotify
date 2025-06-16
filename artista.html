@@ -1,0 +1,40 @@
+<!-- Ana Clara e Maria Eduarda -->
+ 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Coldplay | Spotify</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="artist-body">
+  <div class="sidebar">
+    <h2>Spotify</h2>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="#">Buscar</a></li>
+    </ul>
+  </div>
+
+  <div class="main-artist">
+    <div class="artist-header">
+      <img src="img/coldplay-banner.jpg" alt="Coldplay banner" class="artist-banner">
+      <div class="artist-info">
+        <p>Artista verificado</p>
+        <h1>Coldplay</h1>
+        <p>75.491.397 ouvintes mensais</p>
+        <button onclick="document.getElementById('video').play()">▶️ Play</button>
+        <button>Seguir</button>
+      </div>
+    </div>
+
+    <div class="clipe-musical">
+      <h2>Clipe musical</h2>
+      <video id="video" width="100%" height="auto" controls>
+        <source src="music/yellow.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+      </video>
+    </div>
+  </div>
+</body>
+</html>
